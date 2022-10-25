@@ -1,0 +1,47 @@
+
+
+.App {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  background-image: url('https://wallpaperaccess.com/full/1812852.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5em;
+  color: rgba(174, 180, 186, 0.947);
+}
+
+.profile {
+  width: 40em;
+  background-color: rgba(53, 21, 21, 0.814);
+}
+.profilePic {
+  width: 250px;
+  border-radius: 25px;
+}
+
+p {
+  font-family: 'Kalam', cursive;
+  font-size: 1.25em;
+  background-color: rgba(32, 51, 66, 0.951);
+  color: aliceblue;
+  padding: 1em;
+  border-top: .5em solid rgba(59, 75, 88, 0.814);
+  border-left: .5em solid rgba(18, 28, 36, 0.814);
+  border-bottom: .5em solid rgba(1, 4, 6, 0.814);
+  border-right: .5em solid rgba(48, 71, 89, 0.814);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');

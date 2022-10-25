@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#title {
+  margin-bottom: 5px;
+  padding-bottom: 15px;
+}
+
+#subtitle {
+  margin: 0px;
+  padding-bottom: 30px;
+  font-family:'Courier New', Courier, monospace;
+}
+.books-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin: auto;
+  width: auto;
+}
+
+.book-box {
+  text-align: left;
+  padding: 15px;
+  margin: 15px;
+  height: 400px;
+  width: 220px;
+  background-color: lightgray;
+
+}
+
+.book-title {
+  font-style: italic;
+  
+  
+}
+
+.book-data {
+  text-align: left;
+  font-size: 12px;
+}
+
+#author {
+  color: lightslategray;
+  font-size: 14px;
+  font-weight: bold;
+ 
+}
+
+img {
+  height: 200px;
+}

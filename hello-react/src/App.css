@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  border: 2px solid black ;
+  background-color: indianred;
+  font-family: 'Cormorant Garamond', serif;
+}
+li{
+  list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
